@@ -1,0 +1,349 @@
+/* START HEADER */
+#header {
+  padding: 11px 142px 15px;
+}
+
+#header-logo {
+  margin-bottom: 12px;
+}
+
+#header-logo-icon {
+  position: relative;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background-color: #002146;
+}
+
+#header-logo-icon > i {
+  color: #c5a315;
+  font-size: 12px;
+  font-weight: 300;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+}
+
+#header-logo-title {
+  color: #1b1d2d;
+  padding-left: 8px;
+  font-size: 28px;
+}
+
+#main-nav {
+  padding-left: 15px;
+}
+
+#main-nav-list > li {
+  display: inline;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  font-size: 15px;
+  color: #1b1d2d;
+  margin-right: 25px;
+}
+/* END HEADER */
+
+/* START CAROUSEL */
+#carousel {
+  height: 525px;
+  background-image: url(../images/2.jpg);
+  background-size: cover;
+}
+/* END CAROUSEL */
+
+/* START WELCOME */
+#welcome {
+  padding: 53px 145px;
+}
+
+#welcome-left {
+  padding-right: 45px;
+}
+
+#welcome-left > h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#welcome-left > p {
+  font-size: 14px;
+  color: #828282;
+  line-height: 1.5;
+  margin-bottom: 19px;
+}
+
+#welcome-right > img {
+  width: 100%;
+  padding-left: 10px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.btn-read-more {
+  font-size: 13px;
+  padding: 13px 28px;
+  margin-top: 17px;
+}
+/* END WELCOME */
+
+/* START STATISTICS */
+#statistics {
+  padding: 55px 145px;
+  background-color: #f6f6f6;
+}
+
+.statistics-number {
+  font-size: 50px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.statistics-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: 7px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+/* END STATISTICS */
+
+/* START SUBJECTS */
+#subjects {
+  color: white;
+  padding: 80px 130px;
+}
+
+.subjects-item {
+  padding: 14px 13px;
+}
+
+.subjects-content {
+  text-align: center;
+  padding: 32px 0;
+  border-radius: 5px;
+  background-color: #002146;
+}
+
+.subjects-content > i {
+  font-size: 35px;
+  margin-bottom: 17px;
+}
+
+.subjects-content > p {
+  font-size: 14px;
+}
+/* END SUBJECTS */
+
+/* START POSTS AND EVENTS */
+/* 
+  POSTS AND EVENTS
+  Start General
+*/
+#posts-and-events {
+  padding: 100px 145px;
+  background-color: #f6f6f6;
+}
+
+#posts > h2,
+#events > h2 {
+  font-size: 27px;
+  margin-bottom: 40px;
+}
+
+.posts-text > h3,
+.events-text > h3 {
+  margin-bottom: 8px;
+}
+
+.posts-link:link,
+.posts-link:visited,
+.events-link:link,
+.events-link:visited {
+  font-size: 15px;
+  color: #222433;
+  font-weight: 800;
+}
+
+.posts-text > p,
+.events-text > p {
+  font-size: 14px;
+}
+
+.posts-content,
+.events-content {
+  color: #666666;
+  line-height: 1.5;
+}
+
+.btn-view-all {
+  font-size: 13px;
+  padding: 12px 26px;
+}
+/* 
+  POSTS AND EVENTS
+  End General
+*/
+
+#posts {
+  padding-right: 12px;
+}
+
+#posts-list {
+  padding: 25px 18px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+#posts-list > hr {
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  margin: 24px 0;
+}
+
+.posts-item > img {
+  border-radius: 3px;
+}
+
+.posts-text {
+  /* 
+    Unlike margin properties, 
+    values for padding values cannot 
+    be negative. 
+  */
+  margin-top: -6px;
+  padding: 0 14px;
+}
+
+.posts-date {
+  margin-bottom: 10px;
+  color: #9e9e9e;
+}
+
+#events {
+  padding-left: 38px;
+}
+
+.events-item {
+  margin-bottom: 20px;
+  padding: 18px;
+  background-color: #fff;
+}
+
+.date-block {
+  text-align: center;
+}
+
+.date-block-upper {
+  color: #1b1d2d;
+  background-color: #fdc800;
+  padding: 10px 0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.date-block-lower {
+  background-color: #002146;
+  padding: 10px 0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.date-block-day {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.date-block-month {
+  font-size: 14px;
+}
+
+.date-block-year {
+  font-size: 14px;
+  color: white;
+}
+
+.events-text {
+  padding: 0 14px;
+}
+
+.events-text > h3 {
+  margin-bottom: 12px;
+}
+
+.events-content {
+  margin-bottom: 8px;
+}
+
+.events-time,
+.events-location {
+  color: #1e3a5b;
+}
+
+.events-arrangement > .vertical-letter {
+  color: #ccc;
+  padding: 0 8px;
+  font-size: 20px;
+}
+/* END POSTS AND EVENTS */
+
+/* START FOOTER */
+#footer {
+  color: white;
+  font-size: 14px;
+  padding: 53px 145px;
+  background-color: #002146;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer > hr {
+  border-color: #333e4b;
+  background-color: #333e4b;
+  border-width: 0.5px;
+}
+
+#info {
+  margin-bottom: 20px;
+}
+
+.info-col-md {
+  padding-right: 35px;
+}
+
+#info h2 {
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+
+.info-col-md > p {
+  margin-bottom: 9px;
+  line-height: 1.5;
+}
+
+#contact-location > i,
+#contact-phone > i,
+#contact-email > i {
+  color: #fdc800;
+  font-size: 12px;
+  margin-right: 7px;
+}
+
+.info-list > li {
+  margin-bottom: 14px;
+}
+
+#copyright {
+  margin-top: 30px;
+}
+
+#w3layouts-link:link,
+#w3layouts-link:visited {
+  color: #c3c4c6;
+}
+/* END FOOTER */

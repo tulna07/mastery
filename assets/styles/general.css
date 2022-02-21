@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* START CUSTOM */
+.btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 800;
+  color: #0f2b44;
+  background-color: #fdc800;
+}
+/* END CUSTOM */
+
+/* START FLOAT HANDLER */
+.clear-both::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-col-13 {
+  width: 13%;
+}
+
+.float-col-20 {
+  width: 20%;
+}
+
+.float-col-25 {
+  width: 25%;
+}
+
+.float-col-30 {
+  width: 30%;
+}
+
+.float-col-32 {
+  width: 32%;
+}
+
+.float-col-36 {
+  width: 36%;
+}
+
+.float-col-40 {
+  width: 40%;
+}
+
+.float-col-50 {
+  width: 50%;
+}
+
+.float-col-70 {
+  width: 70%;
+}
+
+.float-col-80 {
+  width: 80%;
+}
+/* END FLOAT HANDLER */
